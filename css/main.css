@@ -17,6 +17,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -154,9 +155,11 @@ a {
     color: var(--gray-8);
 }
 
-.main-section--article-code-il {
+.main-section--article-code-il,
+.main-section--article-li-alt {
     white-space: nowrap;
     font-family: monospace;
+    font-weight: 600;
     background-color: #eee;
     color: var(--code);
 }
@@ -169,6 +172,26 @@ a {
     padding: 24px 12px;
     font-size: 1.4rem;
     background-color: var(--gray-2);
+}
+
+.main-section--article-ul {
+    font-size: 1.6rem;
+    margin: 16px;
+    list-style: disc;
+}
+
+.main-section--article-li {
+    margin-bottom: 16px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding-block: 8px;
+}
+
+footer .footer-text {
+    font-size: 16px;
 }
 
 /* Media Queries | TABLET */
