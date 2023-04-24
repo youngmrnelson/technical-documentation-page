@@ -29,6 +29,11 @@ To use this technical documentation page, follow these steps:
 3. Use the navbar on the left side of the screen to navigate to different sections of the documentation.
 4. On smaller devices, the navbar will be hidden and can be accessed by clicking the hamburger menu icon in the top left corner of the screen.
 
+## Credits
+
+- Thank you to [Shay Howe](https://learn.shayhowe.com/html-css/building-your-first-web-page/) for creating a beautiful introduction to HTML & CSS, as well as providing me with the design inspiration for this site.
+- Thank you to [Yeun / Open Colors](https://yeun.github.io/open-color/) for providing the internet with an ineffable color palette!
+
 ## Contact
 
 [Daniel Nelson](https://www.linkedin.com/in/daniel-nelson-9151a6212/)
