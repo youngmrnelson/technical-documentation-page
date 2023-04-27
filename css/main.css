@@ -149,6 +149,7 @@ a {
 .main-section--article-text {
     font-size: 1.6rem;
     line-height: 1.25;
+    margin-bottom: 12px;
 }
 
 .main-section--article-text-alt {

@@ -2,6 +2,10 @@
 
 This is a technical documentation page that provides information about various topics. It is designed to be responsive and user-friendly.
 
+## Live Preview
+
+[https://youngmrnelson.github.io/technical-documentation-page/](https://youngmrnelson.github.io/technical-documentation-page/)
+
 ## Features
 
 - Main content displayed in a main element with id="main-doc".
