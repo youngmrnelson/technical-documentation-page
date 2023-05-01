@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Learn to code HTML with Mr. Nelson!" />
+    <meta
+      name="keywords"
+      content="frontend, web dev, coding, html, css, freecodecamp"
+    />
+    <meta name="author" content="Daniel Nelson" />
+    <title>Learn to Code with Mr. Nelson</title>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="nav" id="navbar">
+      <div class="container">
+        <header class="nav--header">
+          <a href="index.html" class="nav-header--logo"
+            >Learn to Code<br /><span class="nav-header--logo-alt"
+              ><ion-icon name="cube-outline"></ion-icon> With Mr. Nelson</span
+            ></a
+          >
+        </header>
+        <ul class="nav-links">
+          <li>
+            <a href="#What_is_HTML" class="nav-link"
+              >Chapter 1<br /><span class="nav-link--alt"
+                >What is HTML?</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="#HTML_Syntax" class="nav-link"
+              >Chapter 2<br /><span class="nav-link--alt">HTML Syntax</span></a
+            >
+          </li>
+          <li>
+            <a href="#HTML_Document" class="nav-link"
+              >Chapter 3<br /><span class="nav-link--alt"
+                >HTML Document</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="#HTML_Elements" class="nav-link"
+              >Chapter 4<br /><span class="nav-link--alt"
+                >HTML Elements</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="#HTML_Attributes" class="nav-link"
+              >Chapter 5<br /><span class="nav-link--alt"
+                >HTML Attributes</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="#Whats_Next" class="nav-link"
+              >Chapter 6<br /><span class="nav-link--alt">What's Next?</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/daniel-nelson-9151a6212/"
+              target="_blank"
+              class="nav-link--alt"
+              >Daniel Nelson <ion-icon name="logo-linkedin"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/youngmrnelson"
+              target="_blank"
+              class="nav-link--alt"
+              >View the Code <ion-icon name="logo-github"></ion-icon
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Main Section -->
+    <main id="main-doc" class="main">
+      <!-- Chapter 1: What is HTML? -->
+      <section class="main-section" id="What_is_HTML">
+        <header class="main-section--header">
+          <h2 class="main-section--header-title">
+            <span class="main-section--header-title-alt">What is HTML?</span
+            ><br />Chapter 1
+          </h2>
+        </header>
+        <article class="main-section--article">
+          <p class="main-section--article-text">
+            <strong class="main-section--article-text-alt"
+              >HTML (Hypertext Markup Language)</strong
+            >
+            is a standard markup language used to create web pages. It provides
+            the structure and content for websites and is interpreted by web
+            browsers to render web pages. Here is a brief documentation page to
+            help you understand the basics of HTML.
+          </p>
+        </article>
+      </section>
+      <!-- Chapter 2: HTML Syntax -->
+      <section class="main-section" id="HTML_Syntax">
+        <header class="main-section--header">
+          <h2 class="main-section--header-title">
+            <span class="main-section--header-title-alt">HTML Syntax</span
+            ><br />Chapter 2
+          </h2>
+        </header>
+        <article class="main-section--article">
+          <p class="main-section--article-text">
+            HTML documents are created using tags, which are enclosed in angle
+            brackets "<code class="main-section--article-code-il"
+              >&lt; &gt;</code
+            >". Tags are used to mark up elements in the document, such as
+            headings, paragraphs, images, links, and more. HTML tags are
+            typically used in pairs, with an opening tag ("<code
+              class="main-section--article-code-il"
+              >&lt;tag&gt;</code
+            >") and a closing tag ("<code class="main-section--article-code-il"
+              >&lt;/tag&gt;</code
+            >"). The content between the opening and closing tags is the
+            element's content.
+          </p>
+        </article>
+      </section>
+      <!-- Chapter 3: HTML Document -->
+      <section class="main-section" id="HTML_Document">
+        <header class="main-section--header">
+          <h2 class="main-section--header-title">
+            <span class="main-section--header-title-alt">HTML Document</span
+            ><br />Chapter 3
+          </h2>
+        </header>
+        <article class="main-section--article">
+          <p class="main-section--article-text">
+            Example of a simple HTML Document:
+          </p>
+          <code class="main-section--article-code-bl">
+            <span class="main-section--article-code-bl-line"
+              >&lt;!DOCTYPE html&gt;</span
+            >
+            <span class="main-section--article-code-bl-line indent-1"
+              >&lt;html&gt;</span
+            >
+            <span class="main-section--article-code-bl-line indent-2"
+              >&lt;head&gt;</span
+            >
+            <span class="main-section--article-code-bl-line indent-3"
+              >&lt;title&gt;My First HTML Page&lt;/title&gt;</span
+            >
+            <span class="main-section--article-code-bl-line indent-2"
+              >&lt;/head&gt;</span
+            >
+            <span class="main-section--article-code-bl-line indent-2"
+              >&lt;body&gt;</span
+            >
+            <span class="main-section--article-code-bl-line indent-3"
+              >&lt;h1&gt;Hello, World!&lt;/h1&gt;</span
+            >
+            <span class="main-section--article-code-bl-line indent-3"
+              >&lt;p&gt;This is a paragraph.&lt;/p&gt;</span
+            >
+            <span class="main-section--article-code-bl-line indent-2"
+              >&lt;/body&gt;</span
+            >
+            <span class="main-section--article-code-bl-line indent-1"
+              >&lt;/html&gt;</span
+            >
+          </code>
+        </article>
+        <ul class="main-section--article-ul">
+          <li class="main-section--article-li">
+            <span class="main-section--article-li-alt"
+              >`&lt;!DOCTYPE html&gt;`</span
+            >: This is the document type declaration, which tells the browser
+            that the document is an HTML5 document.
+          </li>
+          <li class="main-section--article-li">
+            <span class="main-section--article-li-alt">`&lt;html&gt;`</span>:
+            This is the root element of an HTML document, and it contains all
+            the other elements in the document.
+          </li>
+          <li class="main-section--article-li">
+            <span class="main-section--article-li-alt">`&lt;header&gt;`</span>:
+            This element contains meta-information about the document, such as
+            the title, which appears in the browser's title bar or tab.
+          </li>
+          <li class="main-section--article-li">
+            <span class="main-section--article-li-alt">`&lt;title&gt;`</span>:
+            This element defines the title of the HTML document, which is
+            displayed in the title bar or tab of the browser.
+          </li>
+          <li class="main-section--article-li">
+            <span class="main-section--article-li-alt">`&lt;body&gt;`</span>:
+            This element contains the main content of the HTML document, such as
+            headings, paragraphs, images, and links.
+          </li>
+          <li class="main-section--article-li">
+            <span class="main-section--article-li-alt">`&lt;h1&gt;`</span>: This
+            is a heading element, used to define the main heading of the
+            document.
+          </li>
+          <li class="main-section--article-li">
+            <span class="main-section--article-li-alt">`&lt;p&gt;`</span>: This
+            is a paragraph element, used to define a paragraph of text.
+          </li>
+        </ul>
+      </section>
+      <!-- Chapter 4: HTML Syntax -->
+      <section class="main-section" id="HTML_Elements">
+        <header class="main-section--header">
+          <h2 class="main-section--header-title">
+            <span class="main-section--header-title-alt">HTML Elements</span
+            ><br />Chapter 4
+          </h2>
+        </header>
+        <article class="main-section--article">
+          <p class="main-section--article-text">
+            HTML provides a wide variety of elements that can be used to create
+            different types of content on web pages. Some common HTML elements
+            include:
+          </p>
+        </article>
+        <ul class="main-section--article-ul">
+          <li class="main-section--article-li">
+            Headings:
+            <span class="main-section--article-li-alt">`&lt;h1&gt;`</span>,
+            <span class="main-section--article-li-alt">`&lt;h2&gt;`</span>,
+            <span class="main-section--article-li-alt">`&lt;h3&gt;`</span>,
+            <span class="main-section--article-li-alt">`&lt;h4&gt;`</span>,
+            <span class="main-section--article-li-alt">`&lt;h5&gt;`</span>,
+            <span class="main-section--article-li-alt">`&lt;h6&gt;`</span> -
+            Used to define headings with different levels of hierarchy.
+          </li>
+          <li class="main-section--article-li">
+            Paragraphs:
+            <span class="main-section--article-li-alt">`&lt;p&gt;`</span> - Used
+            to define paragraphs of text.
+          </li>
+          <li class="main-section--article-li">
+            Links:
+            <span class="main-section--article-li-alt">`&lt;a&gt;`</span> - Used
+            to create hyperlinks to other web pages or resources.
+          </li>
+          <li class="main-section--article-li">
+            Images:
+            <span class="main-section--article-li-alt">`&lt;img&gt;`</span> -
+            Used to display images on web pages.
+          </li>
+          <li class="main-section--article-li">
+            Lists:
+            <span class="main-section--article-li-alt">`&lt;ul&gt;`</span>,
+            <span class="main-section--article-li-alt">`&lt;ol&gt;`</span>,
+            <span class="main-section--article-li-alt">`&lt;li&gt;`</span> -
+            Used to create unordered lists, ordered lists, and list items,
+            respectively.
+          </li>
+          <li class="main-section--article-li">
+            Tables:
+            <span class="main-section--article-li-alt">`&lt;table&gt;`</span>,
+            <span class="main-section--article-li-alt">`&lt;tr&gt;`</span>,
+            <span class="main-section--article-li-alt">`&lt;td&gt;`</span> -
+            Used to create tabular data with rows and columns.
+          </li>
+          <li class="main-section--article-li">
+            Forms:
+            <span class="main-section--article-li-alt">`&lt;form&gt;`</span>,
+            <span class="main-section--article-li-alt">`&lt;input&gt;`</span>,
+            <span class="main-section--article-li-alt">`&lt;button&gt;`</span> -
+            Used to create input forms for user interaction.
+          </li>
+          <li class="main-section--article-li">
+            Divisions:
+            <span class="main-section--article-li-alt">`&lt;div&gt;`</span> -
+            Used to group and apply styles to setions of content.
+          </li>
+        </ul>
+      </section>
+      <!-- Chapter 5: HTML Attributes -->
+      <section class="main-section" id="HTML_Attributes">
+        <header class="main-section--header">
+          <h2 class="main-section--header-title">
+            <span class="main-section--header-title-alt">HTML Attributes</span
+            ><br />Chapter 5
+          </h2>
+        </header>
+        <article class="main-section--article">
+          <p class="main-section--article-text">
+            HTML elements can also have attributes, which provide additional
+            information about the element. Attributes are placed inside the
+            opening tag of an element and consist of a name and a value,
+            separated by an equals sign.
+          </p>
+          <p class="main-section--article-text">
+            Example of an HTML element with attributes:
+          </p>
+        </article>
+        <code class="main-section--article-code-bl">
+          <span class="main-section--article-code-bl-line"
+            >&lt;img src="image.jpg" alt="An example image"&gt;</span
+          >
+        </code>
+        <ul class="main-section--article-ul">
+          <li class="main-section--article-li">
+            <span class="main-section--article-li-alt">`src`</span>: This is an
+            attribute that specifies the source URL of the image.
+          </li>
+          <li class="main-section--article-li">
+            <span class="main-section--article-li-alt">`src`</span>: This is an
+            attribute that provides a text description of the image, which is
+            displayed if the image cannot be loaded.
+          </li>
+        </ul>
+      </section>
+      <!-- Chapter 6: What's Next? -->
+      <section class="main-section" id="Whats_Next">
+        <header class="main-section--header">
+          <h2 class="main-section--header-title">
+            <span class="main-section--header-title-alt">What's Next?</span
+            ><br />Chapter 6
+          </h2>
+        </header>
+        <article class="main-section--article">
+          <p class="main-section--article-text">
+            Practice Real-World Projects: Build real-world projects using HTML
+            to apply your learning and gain practical experience. Create simple
+            web pages, design forms, build tables, and create responsive layouts
+            to strengthen your skills and develop a portfolio of work to
+            showcase your abilities.
+          </p>
+          <p class="main-section--article-text">
+            Explore Advanced Concepts: Once you have a solid understanding of
+            the basics, you can dive into more advanced HTML concepts, such as
+            responsive web design, semantic HTML, accessibility, and web
+            performance optimization. These concepts will help you build more
+            professional and user-friendly web pages./p>
+          </p>
+          <p class="main-section--article-text">
+            Experiment with Code: The best way to learn HTML is by practicing.
+            Create your own HTML documents and experiment with different
+            elements, attributes, and CSS styles to see how they affect the
+            appearance and structure of web pages. You can use a simple text
+            editor like Notepad or a more advanced integrated development
+            environment (IDE) like Visual Studio Code for coding and testing
+            your HTML projects.
+          </p>
+          <p class="main-section--article-text">
+            Remember to keep practicing, experimenting, and challenging yourself
+            to deepen your understanding of HTML. With consistent effort and
+            practice, you can become proficient in HTML and create impressive
+            web pages that meet modern web standards. Happy coding!
+          </p>
+        </article>
+      </section>
+      <!-- Footer -->
+      <footer class="footer">
+        <p class="footer-text">
+          Created by
+          <a
+            href="https://www.linkedin.com/in/daniel-nelson-9151a6212/"
+            target="_blank"
+            class="footer-link"
+            >Daniel Nelson</a
+          >
+          &copy; 2023
+        </p>
+      </footer>
+    </main>
+  </body>
+</html>
