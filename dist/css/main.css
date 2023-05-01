@@ -169,6 +169,14 @@ table {
     grid-template-columns: 1fr;
   }
 }
+.grid-body {
+  grid-template-columns: 2fr 5fr;
+}
+@media (max-width: 767px) {
+  .grid-body {
+    grid-template-columns: 1fr;
+  }
+}
 .grid-gc--full {
   grid-column: 1/-1;
 }
