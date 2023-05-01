@@ -4,6 +4,12 @@
     top: 0;
     color: var(--gray-0);
     background: var(--gray-9);
+    height: 100vh;
+
+    @media(max-width: 767px) {
+        height: 100%;
+        width: 100vw;
+    }
 
     &-header--logo {
         border-bottom: 1px solid var(--gray-8);
@@ -43,5 +49,11 @@
     &-header--logo-alt:hover,
     &-link--alt:hover {
         color: var(--orange-5);
+    }
+
+    &-links {
+        @media(max-width: 767px) {
+            display: none;
+        }
     }
 }

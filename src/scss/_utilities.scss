@@ -12,6 +12,11 @@
     --code: #f06595;
 }
 
+// Background Color
+.bg {
+    &-medium { background: var(--gray-2) }
+}
+
 // Container
 .container {
     max-width: 1200px;
@@ -35,6 +40,7 @@
 .pi {
     &-1 { padding-inline: 8px }
     &-2 { padding-inline: 12px }
+    &-3 { padding-inline: 24px }
 }
 
 .pb {
@@ -77,6 +83,8 @@
 
 .m {
     &-auto { margin-inline: auto }
+    &-1 { margin: 8px }
+    &-2 { margin: 16px }
 }
 
 // Text Align
@@ -91,22 +99,6 @@
     &-2 { text-indent: 2rem }
     &-3 { text-indent: 3rem }
     &-4 { text-indent: 4rem }
-}
-
-.indent-1 {
-    text-indent: 1rem;
-}
-
-.indent-2 {
-    text-indent: 2rem;
-}
-
-.indent-3 {
-    text-indent: 3rem;
-}
-
-.indent-4 {
-    text-indent: 4rem;
 }
 
 // Border
