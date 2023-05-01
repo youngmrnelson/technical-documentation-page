@@ -1,0 +1,52 @@
+// Flexbox Layouts
+.flex {
+    display: flex;
+
+    // AI-C
+    &-ai--c {
+        align-items: center;
+    }
+
+    // JC-SB
+    &-jc--sb {
+        justify-content: space-between;
+    }
+
+    // FD-C
+    &-fd--c {
+        flex-direction: column;
+    }
+}
+
+// Smartphones
+@media(max-width: 767px) {
+    // Flexbox Layouts
+    .flex {
+        &-d--c {
+            flex-direction: column;
+        }
+    }
+}
+
+// Grid Layout
+.grid {
+    display: grid;
+
+    // RC-1
+    &-rc--1 {
+        grid-template-columns: 1fr;
+    }
+
+    &-rc--2 {
+        grid-template-columns: repeat(2, 1fr);
+
+        @media(max-width: 767px) {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    // GC-Full
+    &-gc--full {
+        grid-column: 1 / -1;
+    }
+}
