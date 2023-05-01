@@ -1,0 +1,47 @@
+// Navigation
+.nav {
+    position: sticky;
+    top: 0;
+    color: var(--gray-0);
+    background: var(--gray-9);
+
+    &-header--logo {
+        border-bottom: 1px solid var(--gray-8);
+    }
+
+    &-header--logo,
+    &-link {
+        color: var(--gray-4);
+        font-weight: 300;
+    }
+
+    &-link {
+        font-size: 1.4rem;
+        
+        &--alt {
+            font-size: 1.6rem;
+            font-weight: 600;
+        }
+    }
+
+    &-header--logo {
+        font-size: 2rem;
+
+        &-alt {
+            font-size: 2.4rem;
+        }
+    }
+
+    &-header--logo-alt,
+    &-link--alt {
+        transition: all 0.5s;
+        font-weight: 600;
+    }
+
+    &-header--logo:hover > &-header--logo-alt,
+    &-link:hover > &-link--alt,
+    &-header--logo-alt:hover,
+    &-link--alt:hover {
+        color: var(--orange-5);
+    }
+}
